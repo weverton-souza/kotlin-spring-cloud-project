@@ -1,0 +1,17 @@
+server:
+  port: 8800
+
+spring:
+  application:
+    output:
+      ansi:
+        enabled: ALWAYS
+    name: 'spring-cloud-project-config-service'
+    version: '0.0.1-SNAPSHOT'
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///${user.dir}/../spring-cloud-project-property/{application}

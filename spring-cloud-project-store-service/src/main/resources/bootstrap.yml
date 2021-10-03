@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: 'spring-cloud-project-store-service'
+  cloud:
+    config:
+      uri: http://localhost:8800/
+      label: 1.0-SNAPSHOT
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="[DEV] Store Service" type="Application" factoryName="Application" folderName="Development" activateToolWindowBeforeRun="false">
+    <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/adopt-openjdk-11.0.12" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="com.spring.cloud.store.service.StoreServiceApplicationKt" />
+    <module name="spring-cloud-project-root-service.spring-cloud-project-store-service.main" />
+    <option name="VM_PARAMETERS" value="-Dspring.profiles.active=dev" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.run" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

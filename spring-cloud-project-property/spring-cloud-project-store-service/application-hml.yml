@@ -1,0 +1,11 @@
+server:
+  port: 8520
+  servlet:
+    context-path: /v1/hml
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring_cloud_project_store_hml
+    username: postgres
+    password: cHJvbWV0aGV1cw==
+    driver-class-name: org.postgresql.Driver
